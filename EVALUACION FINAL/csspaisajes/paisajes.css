@@ -16,7 +16,7 @@ header{
   border-top-right-radius: 10px;
   color:white;
   font-family: italic;
-  animation: header 1s ;
+  animation: header 1s;
 }
 @-webkit-keyframes header{
   0%{
@@ -54,74 +54,59 @@ header .principal2 a:hover{
   text-decoration: underline;
   font-size: 110%
 }
-.imgprincipal{
-  background-color: #82c3a6;
-  width:100%;
-}
-.imgprincipal  img {
-margin: auto;
-display: block;
-transform: scale(0.9, 0.9);
-border :solid black 1px;
-}
-#subcon{
+.contenido{
+  background-color: #d5c75f;
   width: 100%;
   display: flex;
-    flex-flow: row wrap;
-    background-color: #d5c75f ;
+  flex-flow: row wrap;
 }
-.secundaria1{
+div [class*="img"]{
+  flex: 1 2 3 33.3%;
+}
+.img1{
   order: 1;
-  width: 50%;
-  margin-top: 2%
+  width: 33.3%
 }
-.secundaria2{
-  order:2;
-  width: 50%;
-  margin-top: 2%;
+.img2{
+    order: 2;
+      width: 33.3%
 }
-div [class*="secundaria"]{
-  flex: 1 2 50% ;
+
+.img3{
+    order: 3;
+      width: 33.3%
 }
-.secundaria1 figure{
-  display: block;
-  margin: auto;
-  width: 100%;
+.img4{
+    order: 4;
+      width: 33.3%
 }
-.secundaria2 figure{
-  display: block;
-  margin: auto;
-  width: 100%;
+.img5{
+    order: 5;
+      width: 33.3%
 }
-.secundaria1 figure img{
-  display: block;
-  margin: auto;
-  border: solid black 1px;
+.img6{
+    order: 6;
+      width: 33.3%
 }
-.secundaria2 figure img{
+section div img{
+width:70%;
+height: 100%;
 display: block;
 margin: auto;
-border: solid black 1px;
+border:solid 1px black;
 }
-.secundaria1 figcaption{
-  width: 100%;
-  text-align: center;
-  font-style: italic;
+section div{
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
-.secundaria2 figcaption{
-  width: 100%;
-  text-align: center;
-  font-style: italic;
+.img1 img {
+ filter: blur(10px);
 }
-.secundaria1 figure img:hover{
-  box-shadow: 5px 5px 5px 5px #82c3a6;
-  border: solid black 2px;
-  transform:  rotate(10deg) scale(0.9,0.9);
+.img2, .img4 ,.img6 img{
+  filter: grayscale(100%);
 }
-.secundaria2 figure img:hover{
-  border: solid black 2px;
-transform: translate(20px,-5px);
-  box-shadow: 5px 5px 5px 5px #82c3a6;
+.img3 img {
+  filter: sepia(90%);
 }
 footer{
   width: 100%;
@@ -211,7 +196,7 @@ header{
   color:white;
   font-family: italic;
   font-size:80%;
-    animation: header 1s ;
+  animation: header 1s;
 }
 @-webkit-keyframes header{
   0%{
@@ -247,74 +232,56 @@ header .principal2 a:hover{
   text-decoration: underline;
   font-size: 110%
 }
-.imgprincipal{
-  background-color: #82c3a6;
-  width:100%;
-}
-.imgprincipal  img {
-margin: auto;
-display: block;
-transform: scale(0.9, 0.9);
-border:solid black 1px;
-}
-#subcon{
+.contenido{
+  background-color: #d5c75f;
   width: 100%;
   display: flex;
-    flex-flow: row wrap;
-    background-color: #d5c75f ;
+  flex-flow: row wrap;
 }
-.secundaria1{
+div [class*="img"]{
+  flex: 1 100%;
+}
+.img1{
   order: 1;
   width: 100%;
-    margin-top: 2%;
 }
-.secundaria2{
-  order:2;
-  width: 100%;
-    margin-top: 2%;
+.img2{
+    order: 2;
+    width: 100%;
 }
-div [class*="secundaria"]{
-  flex: 1 100% ;
-}
-.secundaria1 figure{
-  display: block;
-  margin: auto;
+.img3{
+    order: 3;
   width: 100%;
 }
-.secundaria2 figure{
-  display: block;
-  margin: auto;
+.img4{
+    order: 4;
+    width: 100%;
+}
+.img5{
+    order: 5;
   width: 100%;
 }
-.secundaria1 figure img{
-  display: block;
-  margin: auto;
-  border:solid black 1px;
+.img6{
+    order: 6;
+  width: 100%;
 }
-.secundaria2 figure img{
+section div img{
 display: block;
 margin: auto;
-border:solid black 1px;
+border: solid black 1px;
 }
-.secundaria1 figcaption{
-  width: 100%;
-  text-align: center;
-  font-style: italic;
+section div{
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
-.secundaria2 figcaption{
-  width: 100%;
-  text-align: center;
-  font-style: italic;
+.img1 img {
+ filter: blur(10px);
 }
-.secundaria1 figure img:hover{
-  box-shadow: 5px 5px 5px 5px #82c3a6;
-  border: solid black 2px;
-  transform:  rotate(10deg) scale(0.9,0.9);
+.img2, .img4 ,.img6 img{
+  filter: grayscale(100%);
 }
-.secundaria2 figure img:hover{
-  border: solid black 2px;
-  box-shadow: 5px 5px 5px 5px #82c3a6;
-  transform: scale(0.9,0.9)translate(20px,-5px);;
+.img3 img {
+  filter: sepia(90%);
 }
 footer{
   width: 100%;
